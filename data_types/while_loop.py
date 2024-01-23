@@ -21,10 +21,6 @@
 #     print("sorry, you failed!")
         
 
-
-
-
-
 correct = "O.P.S"
 chances = 3
 count = 0
