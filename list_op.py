@@ -44,8 +44,33 @@
 # print(cube)
 
 # pattern printing
-n = int(input("Enter the no's of rows:" ))
-for i in range(0,n):
-    for j in range(0, i+1):
-        print("*", end=" ")
-    print()
+# n = int(input("Enter the no's of rows:" ))
+# for i in range(0,n):
+#     for j in range(0, i+1):
+#         print("*", end=" ")
+#     print()
+
+my_list = [10 , 10.30 , 2+2j , "messi" , "leo" , "john"]
+my_new_list = [1,2,3,"merra"]
+me = [1 , 2 , 3 , 4 , 5]
+print(my_list)
+print(my_list[2:4])
+my_list.append("chennai")
+print(my_list)
+my_list.insert(2, "neymar")
+print(my_list)
+my_list.extend(my_new_list)
+print(my_list)
+my_list[3] = "complex"
+print(my_list)
+my_list.remove("john")
+print(my_list)
+del my_list[9]
+print(my_list)
+del my_list[9:10]
+print(my_list)
+print(len(my_list))
+for i in my_list:
+    print(i)
+me = [x * x for x in me]
+print(me)
