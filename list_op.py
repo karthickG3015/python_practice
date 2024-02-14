@@ -50,27 +50,54 @@
 #         print("*", end=" ")
 #     print()
 
-my_list = [10 , 10.30 , 2+2j , "messi" , "leo" , "john"]
-my_new_list = [1,2,3,"merra"]
-me = [1 , 2 , 3 , 4 , 5]
-print(my_list)
-print(my_list[2:4])
-my_list.append("chennai")
-print(my_list)
-my_list.insert(2, "neymar")
-print(my_list)
-my_list.extend(my_new_list)
-print(my_list)
-my_list[3] = "complex"
-print(my_list)
-my_list.remove("john")
-print(my_list)
-del my_list[9]
-print(my_list)
-del my_list[9:10]
-print(my_list)
-print(len(my_list))
-for i in my_list:
-    print(i)
-me = [x * x for x in me]
-print(me)
+
+
+# using list 
+
+# my_list = [10 , 10.30 , 2+2j , "messi" , "leo" , "john"]
+# my_new_list = [1,2,3,"merra"]
+# me = [1 , 2 , 3 , 4 , 5]
+# print(my_list)
+# print(my_list[2:4])
+# my_list.append("chennai")
+# print(my_list)
+# my_list.insert(2, "neymar")
+# print(my_list)
+# my_list.extend(my_new_list)
+# print(my_list)
+# my_list[3] = "complex"
+# print(my_list)
+# my_list.remove("john")
+# print(my_list)
+# del my_list[9]
+# print(my_list)
+# del my_list[9:10]
+# print(my_list)
+# print(len(my_list))
+# for i in my_list:
+#     print(i)
+# me = [x * x for x in me]
+# print(me)
+
+
+
+
+
+# using tuples
+
+emp = ()                # empty tuple
+print(emp)      
+city = ("chennai", "mumbai", "bangalore", "delhi")
+num = (1,2,3,8,9,5,3,3,3,4)
+print(city+num)                # concatenation
+nest = (emp,num,city)           # nesting
+print(nest)
+rep = ("python",)*5             #repetition
+print(rep)                  # (or) print(rep*5) there are same
+# del emp                   # delete the tuples
+# print(emp)
+num1 = (1,2,3,8,9,5,3,3,3,4)
+k = num1.count(3)
+print(k)
+A = sum(num1)
+print(A)
