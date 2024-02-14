@@ -30,8 +30,27 @@ print(type(my_list))
 my_tuple = tuple(my_list)           # convert to tuple
 print(my_tuple)
 print(type(my_tuple))
-new_list = [(1,2,3),(4,5,6)]                    # nesting tuple in a list
+new_list = [(1,2,3),(4,5,6)]                    # nesting tuple within list
 new_list.append(("list","tuple","insert"))         
 print(new_list)
 new_list.remove((1,2,3))
 print(new_list)
+new_tuple = (["x","y","z"],["a","b","c"])       # nesting list within tuple
+print(new_tuple)
+new_tuple[1].append("Z")
+print(new_tuple)
+new_tuple[0].remove("z")
+print(new_tuple)
+
+
+series = (0,1,2,3,4,5,6,7,8,9)
+print(series)
+series1 = series+(10,11)
+k = (10)
+l = (10,)
+print(series1)
+print(type(k))
+print(type(l))
+print(type(series))
+series2 = series1[:11]+series[::-1]
+print(series2)
