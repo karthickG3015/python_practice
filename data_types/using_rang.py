@@ -8,9 +8,21 @@
 
 # # # Print characters from a string that are present at an even index number # # #
 
-str = "pynative"
+# str = "pynative"
 
-for i in range(len(str)):
-    if i%2 == 0:
-# for i in range(0,len(str),2):
-        print(str[i])
+# for i in range(len(str)):
+#     if i%2 == 0:
+# # for i in range(0,len(str),2):
+#         print(str[i])
+
+# word = input('Enter word : ')
+
+# x = list(word)
+# for i in x[0::2]:
+#     print(i)
+
+word = input('Enter word: ')
+size = len(word)
+
+for i in range(0, size, 2):
+    print("index[", i, "]", word[i])
