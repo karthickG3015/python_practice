@@ -6,5 +6,5 @@ def ProductOfTwo (num1 , num2):
     else:
         return num1 + num2
     
-result = ProductOfTwo(101,10)
+result = ProductOfTwo(30,30)
 print(result)
