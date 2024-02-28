@@ -15,14 +15,13 @@
 # # for i in range(0,len(str),2):
 #         print(str[i])
 
-# word = input('Enter word : ')
+word = input('Enter word : ')
+x = word
+for i in x[0::2]:
+    print(i)
 
-# x = list(word)
-# for i in x[0::2]:
-#     print(i)
+# word = input('Enter word: ')
+# size = len(word)
 
-word = input('Enter word: ')
-size = len(word)
-
-for i in range(0, size, 2):
-    print("index[", i, "]", word[i])
+# for i in range(0, size, 2):
+#     print("index[", i, "]", word[i])
