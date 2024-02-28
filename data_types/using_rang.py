@@ -15,13 +15,25 @@
 # # for i in range(0,len(str),2):
 #         print(str[i])
 
-word = input('Enter word : ')
-x = word
-for i in x[0::2]:
-    print(i)
+# word = input('Enter word : ')
+# x = word
+# for i in x[0::2]:
+#     print(i)
 
 # word = input('Enter word: ')
 # size = len(word)
 
 # for i in range(0, size, 2):
 #     print("index[", i, "]", word[i])
+
+
+# # # Remove first n characters from a string # # #
+
+# new_list = "karthi"
+# x = new_list[ 2: ]
+# print(x)
+
+def remove_char(word , n):
+    x = word[n: ]
+    return x
+print(remove_char("karthi",3))
