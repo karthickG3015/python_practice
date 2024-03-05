@@ -5,7 +5,7 @@
 # print("the total tax pay is: ",total)
 
 ### using if condition ###
-income = 55000
+income = 45000
 tax_payable = 0
 
 if income <= 10000:
