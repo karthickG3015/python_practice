@@ -7,3 +7,6 @@ if palindrome_num(number):
     print(f"{number} is palindrome")
 else:
     print(f"{number} is not palindrome")
+
+
+
